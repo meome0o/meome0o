@@ -1,0 +1,102 @@
+#hatmot
+{
+margin: 0;
+}         
+h1{
+background-color: brown;
+text-align: center;
+padding: 80px;
+
+}
+nav
+{
+background-color: aquamarine;
+overflow: hidden;
+}
+nav a{
+    color:black;
+padding: 13px 20px;
+    text-decoration: none;
+    display: block;
+}
+nav a:hover{
+    background-color:  black;
+    color: white;
+}
+nav a.giữa
+{
+float: right ;
+}
+
+nav a.phải
+{
+float: right;
+}
+nav a.trái
+{
+float: left;
+}
+#trái
+{
+    flex: 30%;
+background-color: antiquewhite;
+padding: 10px;
+}
+#phải
+{
+    flex: 70%;
+    background-color: chocolate ;
+    padding: 14px 10px;
+}
+#trùm{
+    display: flex;
+    flex-wrap: nowrap;
+}
+footer{
+    background-color: black;
+}
+#trái a{
+    
+    margin: 20px 50px;
+    padding: 0;
+}
+#nhập
+{
+   background-color: antiquewhite; 
+}
+table {
+   
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+   
+  }
+@media (max-width: 800px) 
+{
+   #trái{
+       flex: 100%;
+   } 
+   #phải
+   {
+       flex: 100%;
+   } 
+#trùm
+{
+ flex-wrap: wrap;   
+}
+}
